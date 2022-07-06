@@ -8,7 +8,6 @@
 - [Technology](#technology)
 - [Database Models](#database)
 - [Run](#run)
-- [License](#license)
 
 ## Introduction
 
@@ -93,10 +92,3 @@ To run this application (the master branch), you have to set your own environmen
 After you've set these environmental variables in the .env file at the root of the server folder, you need to navigate to the "seedDB" folder and run "node -r esm seedPosts.js" and "node -r esm seedUsers.js" to fill your empty MongoDB Atlas database.
 
 Now that the database has data and the environmental variables are all set, you should run the two folders, the client and server together to run the application. Open two terminals, navigate to the client in one and to the server in another, run "npm start" in both terminals and the application should start.
-
-## License
-
-[![License](https://img.shields.io/:License-MIT-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- MIT License
-- Copyright 2021 © [Maryam Aljanabi](https://github.com/maryamaljanabi)
