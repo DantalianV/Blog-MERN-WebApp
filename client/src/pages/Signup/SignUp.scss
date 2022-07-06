@@ -1,0 +1,9 @@
+@import "./../../assets/styles/variables.scss";
+
+.signup {
+  height: calc(100vh - 106px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  flex-direction: row;
+}
